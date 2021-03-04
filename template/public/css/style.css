@@ -1,0 +1,1353 @@
+/* ---------------------- CSS CUSTOM ---------------------- */
+.clear {
+  clear: both;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+h4:focus {
+  outline: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+  outline: none !important;
+}
+a:focus {
+  outline: none !important;
+}
+a:link {
+  text-decoration: none;
+  outline: none !important;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  overflow-x: hidden;
+}
+button {
+  text-decoration: none;
+  outline: none !important;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.slick-slide {
+  outline: none !important;
+}
+.fullMain {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.form-control:focus {
+  border-color: #49b08d;
+  box-shadow: none;
+}
+.col-custom {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.main-route-place {
+  border: 1px solid #bb8fce;
+  margin: 3px;
+  padding: 5px;
+}
+.secondary-route-place {
+  border: 1px solid #a2d9ce;
+  margin: 5px;
+  padding: 5px;
+}
+.content-wrapper {
+  margin: 60px 25px 0px 25px;
+}
+.table {
+  margin-bottom: 0px;
+}
+/* ---------------------- TRANG LOGIN ---------------------- */
+.Login {
+  background: url(../images/background/bg-login.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.Login .loginBox {
+  margin: 5% auto 0;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 99;
+  border-radius: 5px;
+}
+.Login .loginBox .mainLogin {
+  padding: 50px 0px 0px 0px;
+}
+.Login .loginBox .mainLogin .inputFormLogin {
+  padding: 15px 0px;
+}
+.Login .loginBox .mainLogin .titleFormLogin {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.Login .loginBox .mainLogin .inputFormLogin .form-group {
+  margin: 25px;
+}
+.Login .loginBox .mainLogin .inputFormLogin .form-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 0.5px solid #686868;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0px;
+  transition: 0.6s;
+}
+.Login .loginBox .mainLogin .inputFormLogin .form-group input::placeholder {
+  color: #a1a1a1;
+}
+.Login .loginBox .mainLogin .inputFormLogin .form-group input:focus {
+  border-bottom: 0.5px solid #fff;
+  transition: 0.6s;
+}
+.Login .loginBox .mainLogin .inputFormLogin .registerAccount {
+  float: left;
+  transition: 0.6s;
+}
+.Login .loginBox .mainLogin .inputFormLogin .registerAccount a {
+  color: #fff;
+  transition: 0.6s;
+}
+.Login .loginBox .mainLogin .inputFormLogin .registerAccount a:hover {
+  color: rgba(172, 51, 41, 2);
+}
+.Login .loginBox .mainLogin .inputFormLogin .forgetPassword {
+  margin: 0px;
+  float: right;
+}
+.Login .loginBox .mainLogin .inputFormLogin .forgetPassword a {
+  color: #fff;
+  transition: 0.6s;
+}
+.Login .loginBox .mainLogin .inputFormLogin .forgetPassword a:hover {
+  color: rgba(172, 51, 41, 2);
+  transition: 0.6s;
+}
+.Login .loginBox .mainLogin .inputFormLogin .form-group:last-child {
+  padding: 10px 0px;
+}
+.Login .loginBox .bottomLogin .acceptLogin {
+  text-align: center;
+  padding: 20px 20px 30px 20px;
+}
+.Login .loginBox .bottomLogin .acceptLogin .btnLogin {
+  width: 80%;
+  padding: 10px 0px;
+  border-radius: 20px;
+  background-color: rgba(172, 51, 41, 2);
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  transition: 0.6s;
+}
+.Login .loginBox .bottomLogin .acceptLogin .btnLogin:hover {
+  opacity: 0.8;
+  transition: 0.6s;
+  outline: none;
+}
+/* ---------------------- TRANG REGISTER ---------------------- */
+.Register {
+  background: url(../images/background/bg-login.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.Register .registerBox {
+  margin: 2% auto 0;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 99;
+  border-radius: 5px;
+}
+.Register .topRegister .backToWebsite img {
+  width: 25px;
+  height: 25px;
+  transition: 0.6s;
+  margin: 20px 5px;
+}
+.Register .topRegister .backToWebsite img:hover,
+.Register .topRegister .backToWebsite img:focus {
+  opacity: 0.6;
+  transition: 0.6s;
+}
+.Register .registerBox .mainRegister .inputFormRegister {
+  padding: 0px 0px 15px 0px;
+}
+.Register .registerBox .mainRegister .titleFormRegister {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.Register .registerBox .mainRegister .inputFormRegister .form-group {
+  margin: 25px 25px 20px 25px;
+}
+.Register .registerBox .mainRegister .inputFormRegister .form-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 0.5px solid #686868;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0px;
+  transition: 0.4s;
+}
+.Register
+  .registerBox
+  .mainRegister
+  .inputFormRegister
+  .form-group
+  input::placeholder {
+  color: #a1a1a1;
+}
+.Register
+  .registerBox
+  .mainRegister
+  .inputFormRegister
+  .form-group
+  input:focus {
+  border-bottom: 1px solid #fff;
+  transition: 0.4s;
+}
+.Register .registerBox .mainRegister .inputFormRegister .forgetPassword {
+  margin: 0px 25px;
+  float: right;
+}
+.Register .registerBox .mainRegister .inputFormRegister .forgetPassword a {
+  color: #fff;
+  font-size: 12px;
+}
+.Register .registerBox .bottomRegister .acceptRegister {
+  text-align: center;
+  padding: 0px 20px 30px 20px;
+}
+.Register .registerBox .bottomRegister .acceptRegister .btnRegister {
+  width: 80%;
+  padding: 10px 0px;
+  border-radius: 20px;
+  background-color: rgba(172, 51, 41, 2);
+  color: #fff;
+  outline: none;
+  transition: 0.6s;
+  box-shadow: none;
+}
+.Register .registerBox .bottomRegister .acceptRegister .btnRegister:hover {
+  opacity: 0.8;
+  transition: 0.6s;
+  outline: none;
+}
+/* ---------------------- TRANG QUÊN MẬT KHẨU ---------------------- */
+.ForgetPassword {
+  background: url(../images/background/bg-login.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.ForgetPassword .forgetPasswordBox {
+  margin: 5% auto 0;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 99;
+  border-radius: 5px;
+}
+.ForgetPassword .topForgetPassword .backToWebsite img {
+  width: 25px;
+  height: 25px;
+  transition: 0.6s;
+  margin: 20px 5px;
+}
+.ForgetPassword .topForgetPassword .backToWebsite img:hover,
+.ForgetPassword .topForgetPassword .backToWebsite img:focus {
+  opacity: 0.6;
+  transition: 0.6s;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .inputFormForgetPassword {
+  padding: 15px 0px;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .titleFormForgetPassword {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .inputFormForgetPassword
+  .form-group {
+  margin: 25px;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .inputFormForgetPassword
+  .form-group
+  input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 0.5px solid #686868;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0px;
+  transition: 0.6s;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .inputFormForgetPassword
+  .form-group
+  input::placeholder {
+  color: #a1a1a1;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .inputFormForgetPassword
+  .form-group
+  input:focus {
+  border-bottom: 0.5px solid #fff;
+  transition: 0.6s;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .inputFormForgetPassword
+  .forgetPassword {
+  margin: 0px 25px;
+  float: right;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .mainForgetPassword
+  .inputFormForgetPassword
+  .forgetPassword
+  a {
+  color: #fff;
+  font-size: 12px;
+}
+.ForgetPassword .forgetPasswordBox .bottomForgetPassword .acceptForgetPassword {
+  text-align: center;
+  padding: 0px 0px 35px 0px;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .bottomForgetPassword
+  .acceptForgetPassword
+  .btnForgetPassword {
+  width: 80%;
+  padding: 10px 0px;
+  border-radius: 20px;
+  background-color: rgba(172, 51, 41, 2);
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  transition: 0.6s;
+}
+.ForgetPassword
+  .forgetPasswordBox
+  .bottomForgetPassword
+  .acceptForgetPassword
+  .btnForgetPassword:hover {
+  opacity: 0.8;
+  transition: 0.6s;
+  outline: none;
+}
+/* ---------------------- TRANG DASHBOARD ---------------------- */
+/* ---------------------- HEADER DASHBOARD ---------------------- */
+.bm-burger-button {
+  position: fixed;
+  width: 25px;
+  height: 20px;
+  left: 25px;
+  top: 12px;
+}
+.bm-burger-bars {
+  background: #fff;
+  height: 2px !important;
+}
+.bm-burger-bars-hover {
+  opacity: 0.7;
+}
+.bm-burger-button button:focus {
+  outline: none;
+}
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+.bm-cross-button {
+  top: 10px !important;
+}
+.bm-cross {
+  background: #bdc3c7;
+}
+.bm-cross-button button:focus {
+  outline: none;
+}
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+.bm-menu {
+  background: #333;
+  padding: 50px 0px;
+}
+.bm-morph-shape {
+  fill: #373a47;
+}
+.bm-item-list {
+  color: #b8b7ad;
+}
+.bm-item-list a {
+  color: #fff;
+  font-size: 16px;
+}
+.bm-item {
+  display: inline-block;
+}
+.bm-overlay {
+  background: #fff;
+}
+.bm-menu-wrap {
+  width: 250px !important;
+}
+#accordion:focus {
+  outline: none !important;
+}
+#accordion .card {
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid #454545;
+  border-radius: 0px;
+}
+#accordion .card:focus {
+  outline: none;
+}
+#accordion .card .card-body {
+  padding: 10px !important;
+}
+#accordion .card .card-body .list-group .list-group-item {
+  background-color: transparent !important;
+  border: none !important;
+  transition: 0.6s;
+}
+#accordion .card .card-body .list-group .list-group-item:before {
+  font-family: "fontawesome";
+  content: "\f1ce";
+  margin: 0px 10px 0px 0px;
+  font-size: 12px;
+}
+#accordion .card .card-body .list-group .list-group-item.active {
+  color: #cc2121;
+}
+#accordion .card .card-body .list-group .list-group-item:active,
+#accordion .card .card-body .list-group .list-group-item:focus,
+#accordion .card .card-body .list-group .list-group-item:hover {
+  color: #cc2121;
+  transition: 0.6s;
+}
+#accordion .card .card-header {
+  padding: 20px 20px;
+  border: none;
+  transition: 0.4s;
+}
+#accordion .card .card-header:hover {
+  background-color: #222;
+  transition: 0.4s;
+}
+.react-datepicker-component .react-datepicker-input input {
+  font-weight: 400 !important;
+  padding-left: 10px !important;
+}
+.react-datepicker-component .react-datepicker-input:hover {
+  background: #fff !important;
+}
+.react-datepicker-component .react-datepicker-input {
+  background: #fff !important;
+}
+.icon-rc-datepicker {
+  color: rgba(172, 51, 41, 2) !important;
+}
+.topDashboard {
+  background: rgba(172, 51, 41, 2);
+  height: 44px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 9;
+}
+#accordion .card.not-child a:focus .card-header {
+  background-color: #222 !important;
+  border-left: 5px solid rgba(172, 51, 41, 2) !important;
+}
+#accordion .card [class=""] {
+  background-color: #222;
+  border-left: 5px solid rgba(172, 51, 41, 2);
+  transition: 0.6s;
+}
+.card [data-toggle="collapse"]:after {
+  font-family: "fontawesome";
+  content: "\f105";
+  float: right;
+  color: #fff;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  transition: 0.4s;
+}
+.card [data-toggle="collapse"].collapsed:after {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  color: #fff;
+  transition: 0.4s;
+}
+.topDashboard .menuDashboard .customRow {
+  margin-right: 0px !important;
+}
+.topDashboard .menuDashboard .imgLogoMenu {
+  width: 125px;
+  position: absolute;
+  top: 13px;
+  left: 50px;
+  outline: none;
+}
+.topDashboard .menuDashboard .logo {
+  line-height: 36px;
+}
+.topDashboard .menuDashboard .logo img {
+  width: 120px;
+}
+.topDashboard .menuDashboard .menuCenter {
+  text-align: center;
+}
+.topDashboard .menuDashboard .menuCenter ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  line-height: 44px;
+  transition: 0.6s;
+  color: #fff;
+  font-size: 15px;
+  line-height: 44px;
+}
+.topDashboard .menuDashboard .menuCenter ul a:focus li,
+.topDashboard .menuDashboard .menuCenter ul li:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transition: 0.6s;
+}
+.topDashboard .menuDashboard .menuRight {
+  text-align: right;
+}
+.topDashboard .menuDashboard .menuRight ul li {
+  display: inline-block;
+  padding: 0px 10px;
+  line-height: 38px;
+}
+.topDashboard .menuDashboard .menuRight ul li:last-child {
+  display: inline-block;
+  padding: 0px 0px 0px 10px;
+  line-height: 38px;
+}
+.topDashboard .menuDashboard .menuRight ul li a {
+  color: #fff;
+  font-size: 13px;
+  transition: 0.6s;
+}
+.topDashboard .menuDashboard .menuRight ul li a:hover {
+  opacity: 0.7;
+  transition: 0.6s;
+}
+.topDashboard .menuDashboard .menuRight ul li a img {
+  width: 25px;
+  height: 25px;
+}
+.topDashboard .menuDashboard .menuRight ul li a img.imgAvatar {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px 0px 0px;
+}
+.topDashboard .menuDashboard .menuRight .openNotification {
+  position: relative;
+}
+.topDashboard .menuDashboard .menuRight .openNotification .badge {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+}
+.topDashboard .menuDashboard .formNotification {
+  display: none;
+  position: absolute;
+  right: 58px;
+  top: 44px;
+  width: 400px;
+  z-index: 99;
+  box-shadow: 0 2px 2px 0 rgba(60, 75, 100, 0.14),
+    0 3px 1px -2px rgba(60, 75, 100, 0.12), 0 1px 5px 0 rgba(60, 75, 100, 0.2);
+}
+.topDashboard .menuDashboard .formNotification .card {
+  border: none;
+  border-radius: 0px !important;
+}
+.topDashboard .menuDashboard .formNotification .card .card-body {
+  transition: 0.6s;
+  padding: 15px 20% 15px 15px;
+  position: relative;
+}
+.topDashboard .menuDashboard .formNotification .card .card-body:hover {
+  background: #ebedef;
+  transition: 0.6s;
+}
+.topDashboard .menuDashboard .formNotification .card .card-body.last {
+  padding: 10px 20px;
+  border-top: 1px solid #e9e9e9;
+  background: #ebedef;
+}
+.topDashboard
+  .menuDashboard
+  .formNotification
+  .card
+  .card-body.last
+  .card-text {
+  color: rgba(172, 51, 41, 2);
+}
+.topDashboard .menuDashboard .formNotification .card .card-header {
+  background: #fff !important;
+  color: #111;
+}
+.topDashboard
+  .menuDashboard
+  .formNotification
+  .card
+  .card-header:first-child
+  span {
+  color: rgba(172, 51, 41, 2);
+  font-weight: 900;
+}
+.topDashboard .menuDashboard .formNotification .card .card-header:first-child {
+  border-radius: 0px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.topDashboard
+  .menuDashboard
+  .formNotification
+  .card
+  .card-header:first-child:before {
+  position: absolute;
+  content: "";
+  z-index: 98;
+  color: rgba(172, 51, 41, 2);
+  width: 0.1px;
+  height: 0.1px;
+  top: -16px;
+  right: 26px;
+  margin-right: -9px;
+  border-style: solid;
+  border-width: 9px;
+  border-color: transparent transparent #fff transparent;
+  z-index: 1;
+}
+.topDashboard .menuDashboard .formNotification .card .card-body .card-title {
+  color: #111;
+  font-weight: 600;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.topDashboard .menuDashboard .formNotification .card .card-body .card-text {
+  color: #888;
+  font-size: 12px;
+}
+.topDashboard .menuDashboard .formNotification .card .card-body .time-noti {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.topDashboard .menuDashboard .formUserSetting {
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(60, 75, 100, 0.14),
+    0 3px 1px -2px rgba(60, 75, 100, 0.12), 0 1px 5px 0 rgba(60, 75, 100, 0.2);
+  z-index: 993;
+  display: none;
+  position: absolute;
+  top: 45px;
+  width: 200px;
+  right: 15px;
+}
+.topDashboard .menuDashboard .formUserSetting ul li {
+  padding: 10px 20px;
+}
+.topDashboard .menuDashboard .formUserSetting ul li:hover {
+  background-color: #ebedef;
+}
+.topDashboard .menuDashboard .formUserSetting ul a {
+  color: #111;
+}
+.topDashboard .menuDashboard .formUserSetting ul:before {
+  position: absolute;
+  content: "";
+  z-index: 100;
+  color: rgba(172, 51, 41, 2);
+  width: 0.1px;
+  height: 0.1px;
+  top: -17px;
+  right: 24px;
+  margin-right: -9px;
+  border-style: solid;
+  border-width: 9px;
+  border-color: transparent transparent #fff transparent;
+  z-index: 1;
+}
+.topDashboard .menuDashboard .formUserSetting .card-header {
+  border-bottom: 1px solid rgba(232, 232, 232, 1);
+}
+.topDashboard .menuDashboard .formUserSetting .nameUser {
+  color: rgba(172, 51, 41, 2);
+  font-weight: 700;
+}
+/* ---------------------- BREACRUMB ---------------------- */
+.breadCrumb {
+  background : #efefef;
+  color : rgba(172, 51, 41, 2);
+  font-size: 16px;
+  margin : 0px 0px 25px 0px;
+  padding: 10px 20px;
+}
+/* ---------------------- MAIN DASHBOARD ---------------------- */
+.mainDashboard .income__spend {
+  margin: 0px 0px 20px 0px;
+}
+.mainDashboard .income__spend .incomeToday {
+  background: #00c0ef;
+  text-align: center;
+  transition: 0.6s;
+}
+.mainDashboard .income__spend .incomeToday .imgIncome {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  line-height: 70px;
+}
+.mainDashboard .income__spend .incomeToday .imgIncome img {
+  width: 55px;
+}
+.mainDashboard .income__spend .incomeToday .infoIncome {
+  text-align: center;
+  margin: 20px 0px !important;
+}
+.mainDashboard .income__spend .incomeToday .infoIncome .titleIncome p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.mainDashboard .income__spend .incomeToday .infoIncome .countIncome p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.mainDashboard .income__spend .spendToday {
+  background: #f39c12;
+  text-align: center;
+  margin: 0px 0px 0px -10px;
+  color: #fff;
+  transition: 0.4s;
+}
+.mainDashboard .income__spend .spendToday .imgSpend {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  line-height: 70px;
+}
+.mainDashboard .income__spend .spendToday .imgSpend img {
+  width: 45px;
+}
+.mainDashboard .income__spend .spendToday .infoSpend {
+  text-align: center;
+  margin: 20px 0px !important;
+}
+.mainDashboard .income__spend .spendToday .infoSpend .titleSpend p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.mainDashboard .income__spend .spendToday .infoSpend .countSpend p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.mainDashboard .income__spend .spendToday .infoSpend .readMore {
+  float: right;
+}
+.mainDashboard .income__spend .spendToday .infoSpend .readMore a {
+  color: #fff;
+  font-size: 14px;
+}
+.mainDashboard .income__spend .spendToday .infoSpend .readMore a i {
+  margin: 0px 0px 0px 5px;
+}
+.mainDashboard .income__spend .incomeToday:hover {
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.6s;
+  transform: translateY(-5px);
+}
+.mainDashboard .income__spend .spendToday:hover {
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.6s;
+  transform: translateY(-5px);
+}
+/*  */
+.mainDashboard .income__spend .incomeThisMonth {
+  background: #00a65a;
+  text-align: center;
+  margin: 0px -10px 0px 0px;
+  transition: 0.6s;
+}
+.mainDashboard .income__spend .incomeThisMonth .imgIncome {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  line-height: 70px;
+}
+.mainDashboard .income__spend .incomeThisMonth .imgIncome img {
+  width: 45px;
+}
+.mainDashboard .income__spend .incomeThisMonth .infoIncome {
+  text-align: center;
+  margin: 20px 0px !important;
+}
+.mainDashboard .income__spend .incomeThisMonth .infoIncome .titleIncome p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.mainDashboard .income__spend .incomeThisMonth .infoIncome .countIncome p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.mainDashboard .income__spend .incomeThisMonth .infoIncome .readMore {
+  float: right;
+}
+.mainDashboard .income__spend .incomeThisMonth .infoIncome .readMore a {
+  color: #fff;
+  font-size: 14px;
+}
+.mainDashboard .income__spend .incomeThisMonth .infoIncome .readMore a i {
+  margin: 0px 0px 0px 5px;
+}
+.mainDashboard .income__spend .spendThisMonth {
+  background: #dd4b39;
+  text-align: center;
+  margin: 0px 0px 0px -10px;
+  color: #fff;
+  transition: 0.4s;
+}
+.mainDashboard .income__spend .spendThisMonth .imgSpend {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  line-height: 70px;
+}
+.mainDashboard .income__spend .spendThisMonth .imgSpend img {
+  width: 50px;
+}
+.mainDashboard .income__spend .spendThisMonth .infoSpend {
+  text-align: center;
+  margin: 20px 0px !important;
+}
+.mainDashboard .income__spend .spendThisMonth .infoSpend .titleSpend p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.mainDashboard .income__spend .spendThisMonth .infoSpend .countSpend p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.mainDashboard .income__spend .spendThisMonth .infoSpend .readMore {
+  float: right;
+}
+.mainDashboard .income__spend .spendThisMonth .infoSpend .readMore a {
+  color: #fff;
+  font-size: 14px;
+}
+.mainDashboard .income__spend .spendThisMonth .infoSpend .readMore a i {
+  margin: 0px 0px 0px 5px;
+}
+.mainDashboard .income__spend .incomeThisMonth:hover {
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.6s;
+  transform: translateY(-5px);
+}
+.mainDashboard .income__spend .spendThisMonth:hover {
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.6s;
+  transform: translateY(-5px);
+}
+.mainDashboard .revenueResult .table thead th:last-child {
+  text-align: left;
+}
+/* ---------------------- FOOTER DASHBOARD ---------------------- */
+.footerDashboard {
+  background : #111;
+  color : #FFF;
+  text-align: center;
+  padding: 10px 0px;
+}
+/* ---------------------- REVENUE MANAGER ---------------------- */
+.revenueManager .searchRevernue {
+  margin: 25px -5px;
+  position: relative;
+}
+.revenueManager .searchRevernue .customRow {
+  margin: 0px !important;
+}
+.revenueManager .searchRevernue .customRow .input-col-custom {
+  padding: 0px 5px !important;
+}
+.revenueManager .searchRevernue select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 2px solid #d8d8d8;
+}
+.revenueManager .searchRevernue .workPay {
+  position: relative;
+}
+.revenueManager .searchRevernue .workPay .addWorkPay {
+  position: absolute;
+  top: 29px;
+  font-size: 14px;
+  padding: 5.5px 12px;
+  right: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.revenueManager
+  .searchRevernue
+  select.form-control:not([size]):not([multiple]) {
+  height: auto;
+  margin: 0px 0px 15px 0px;
+}
+.revenueManager
+  .searchRevernue
+  .workPay
+  select#slWorkPay.form-control:not([size]):not([multiple]) {
+  width: 100%;
+}
+.revenueManager .searchRevernue input {
+  width: 100%;
+  padding: 6px 15px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.6s;
+  margin: 0px 0px 15px 0px;
+  border: 2px solid #d8d8d8;
+}
+.revenueManager .searchRevernue .buttonSearchSubmit {
+  text-align: right;
+  line-height: 88px;
+}
+.revenueManager .searchRevernue .buttonSearchSubmit .searchResult {
+  padding: 6.5px 12px;
+  font-size: 14px;
+  margin: 0px 5px 0px 0px;
+}
+.revenueManager .searchRevernue .buttonSearchSubmit .refreshResult {
+  padding: 6.5px 12px;
+  font-size: 14px;
+}
+.revenueManager .searchRevernue .functionUser {
+  text-align: right;
+}
+.revenueManager .searchRevernue .functionUser .addItemRevenue {
+  padding: 6.5px 8px;
+  font-size: 14px;
+  margin: 0px 5px 0px 0px;
+}
+.revenueManager .searchRevernue .functionUser .addItemRevenue i {
+  margin: 0px 5px 0px 0px;
+}
+.revenueManager .searchRevernue .functionUser .delAllItem {
+  padding: 6.5px 8px;
+  font-size: 14px;
+}
+.revenueManager .searchRevernue .functionUser .delAllItem i {
+  margin: 0px 5px 0px 0px;
+}
+/* ---------------------- REVENUE RESULT ---------------------- */
+.revenueResult .table thead th {
+  color: rgba(172, 51, 41, 2);
+  font-weight: 900;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.revenueResult .table tbody td {
+  white-space: nowrap;
+}
+.revenueResult .table tbody td .badge-success,
+.revenueResult .table tbody td .badge-danger {
+  text-transform: uppercase;
+  padding: 8px 10px;
+}
+.revenueResult .table thead th:last-child {
+  text-align: right;
+}
+.revenueResult .table tbody td .userCustom {
+  text-align: right;
+}
+.revenueResult .table tbody td .userCustom button {
+  margin: 0px 2px;
+}
+.revenueResult
+  .table
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: rgba(172, 51, 41, 2);
+}
+
+/* ---------------------- WALLET RESULT ---------------------- */
+.walletResult .table thead th {
+  color: rgba(172, 51, 41, 2);
+  font-weight: 900;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.walletResult .table tbody td {
+  white-space: nowrap;
+}
+.walletResult .table thead th:last-child {
+  text-align: right;
+}
+.walletResult .table tbody td .userCustom {
+  text-align: right;
+}
+.walletResult .table tbody td .userCustom button {
+  margin: 0px 2px;
+}
+.walletResult .table tbody td .fa-toggle-on {
+  color : #28a745;
+}
+.walletResult .table tbody td .fa-toggle-off {
+  color : #a99e9e;
+}
+.walletResult
+  .table
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: rgba(172, 51, 41, 2);
+}
+/* ---------------------- WALLET MANAGER ---------------------- */
+.walletManager .searchRevernue {
+  margin: 25px -5px;
+  position: relative;
+}
+.walletManager .searchRevernue .customRow {
+  margin: 0px !important;
+}
+.walletManager .searchRevernue .customRow .input-col-custom {
+  padding: 0px 5px !important;
+}
+.walletManager .searchRevernue input {
+  width: 100%;
+  padding: 6px 15px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.6s;
+  margin: 0px 0px 15px 0px;
+  border: 2px solid #d8d8d8;
+}
+.walletManager .searchRevernue .buttonSearchSubmit {
+  text-align: left;
+}
+.walletManager .searchRevernue .buttonSearchSubmit .searchResult {
+  padding: 6.5px 12px;
+  font-size: 14px;
+  margin: 0px 5px 0px 0px;
+}
+.walletManager .searchRevernue .buttonSearchSubmit .refreshResult {
+  padding: 6.5px 12px;
+  font-size: 14px;
+}
+.walletManager .searchRevernue .functionUser {
+  text-align: right;
+}
+.walletManager .searchRevernue .functionUser .addItemWallet {
+  padding: 6.5px 8px;
+  font-size: 14px;
+  margin: 0px 5px 0px 0px;
+}
+.walletManager .searchRevernue .functionUser .addItemWallet i {
+  margin: 0px 5px 0px 0px;
+}
+.walletManager .searchRevernue .functionUser .delAllItem {
+  padding: 6.5px 8px;
+  font-size: 14px;
+  margin: 0px 4px 0px 0px;
+}
+.walletManager .searchRevernue .functionUser .delAllItem i {
+  margin: 0px 5px 0px 0px;
+}
+/* ---------------------- FORM REVENUE ---------------------- */
+.formRevenue {
+  position: fixed;
+  height: 100vh;
+  display: none;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.97);
+  right: 0;
+  top: 0;
+  -webkit-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: -8px 0px 22px 0px rgba(0, 0, 0, 0.5);
+}
+.formSmall {
+  width: 30%;
+}
+.formBig {
+  width: 80%;
+}
+.formRevenue .headerForm {
+  background : rgba(172, 51, 41, 2);
+  color : #FFF;
+  padding: 8.5px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.formRevenue .mainForm {
+  padding: 15px;
+}
+.formRevenue .mainForm .btnSubmit {
+  float : right;
+}
+.formRevenue .mainForm .btnSubmit .saveSubmit {
+  margin : 0px 5px 0px 0px;
+}
+.formRevenue .mainForm .btnSubmit .btn i {
+  margin : 0px 5px 0px 0px;
+}
+
+/* ---------------------- FORM WALLET ---------------------- */
+.formWallet {
+  position: fixed;
+  height: 100vh;
+  display: none;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.97);
+  right: 0;
+  top: 0;
+  -webkit-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: -8px 0px 22px 0px rgba(0, 0, 0, 0.5);
+}
+.formWallet .headerForm {
+  background : rgba(172, 51, 41, 2);
+  color : #FFF;
+  padding: 8.5px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.formWallet .mainForm {
+  padding: 15px;
+}
+.formWallet .mainForm .btnSubmit {
+  float : right;
+}
+.formWallet .mainForm .btnSubmit .saveSubmit {
+  margin : 0px 5px 0px 0px;
+}
+.formWallet .mainForm .btnSubmit .btn i {
+  margin : 0px 5px 0px 0px;
+}
+/* ---------------------- PAGINATION RESULT ---------------------- */
+.paginationResult {
+  padding: 25px 0px !important;
+}
+.page-link {
+  color : rgba(172, 51, 41, 2);
+}
+.page-link:hover {
+  color : rgba(172, 51, 41, 2);
+}
+/* ---------------------- FORM UPDATE INFO USER ---------------------- */
+.formUpdateInfoUser {
+  position: fixed;
+  height: 100vh;
+  display: none;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.97);
+  right: 0;
+  top: 0;
+  -webkit-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: -8px 0px 22px 0px rgba(0, 0, 0, 0.5);
+}
+.formUpdateInfoUser .headerForm {
+  background : rgba(172, 51, 41, 2);
+  color : #FFF;
+  padding: 8.5px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.formUpdateInfoUser .mainForm {
+  padding: 15px;
+}
+.formUpdateInfoUser .mainForm .btnSubmit {
+  float : right;
+}
+.formUpdateInfoUser .mainForm .btnSubmit .saveSubmit {
+  margin : 0px 5px 0px 0px;
+}
+.formUpdateInfoUser .mainForm .btnSubmit .btn i {
+  margin : 0px 5px 0px 0px;
+}
+/* ---------------------- FORM CHANGE PASSWORD ---------------------- */
+.formChangePassword {
+  position: fixed;
+  height: 100vh;
+  display: none;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.97);
+  right: 0;
+  top: 0;
+  -webkit-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -8px -1px 22px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: -8px 0px 22px 0px rgba(0, 0, 0, 0.5);
+}
+.formChangePassword .headerForm {
+  background : rgba(172, 51, 41, 2);
+  color : #FFF;
+  padding: 8.5px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.formChangePassword .mainForm {
+  padding: 15px;
+}
+.formChangePassword .mainForm .btnSubmit {
+  float : right;
+}
+.formChangePassword .mainForm .btnSubmit .saveSubmit {
+  margin : 0px 5px 0px 0px;
+}
+.formChangePassword .mainForm .btnSubmit .btn i {
+  margin : 0px 5px 0px 0px;
+}
+/* ---------------------- CHART DASHBOARD ---------------------- */
+.chartDashboard {
+  padding: 30px 0px;
+}
+.apexcharts-toolbar {
+  display: none !important;
+}
+.apexcharts-legend {
+  bottom: 0px !important;
+}
+/* ---------------------- REVENUE DASHBOARD ---------------------- */
+.formSearchDashboard .formSearch {
+  padding: 30px 0px 30px 0px;
+  position: relative;
+}
+.formSearchDashboard .formSearch input {
+  width: 100%;
+  padding: 10px 50px 10px 50px;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+  color: rgba(172, 51, 41, 2);
+  transition: 0.6s;
+  border: 2px solid #d8d8d8;
+}
+.formSearchDashboard .formSearch input:focus::placeholder {
+  color: transparent;
+  transition: 0.6s;
+}
+.formSearchDashboard .formSearch input:focus {
+  border: 2px solid rgba(172, 51, 41, 2);
+  transition: 0.6s;
+}
+.formSearchDashboard .formSearch input::placeholder {
+  color: #888;
+  transition: 0.6s;
+}
+.formSearchDashboard .formSearch i.fa-times-circle {
+  position: absolute;
+  top: 45px;
+  font-size: 16px;
+  color: #888;
+  right: 20px;
+}
+.formSearchDashboard .formSearch i.fa-search {
+  top: 45px;
+  position: absolute;
+  font-size: 18px;
+  left: 22px;
+  color: #888;
+}

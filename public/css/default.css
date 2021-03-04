@@ -1,0 +1,37 @@
+/* ------------------------------- ERROR ----------------------------- */
+
+.error, .has-error>label {
+    color: #990000;
+}
+
+.has-error input, .has-error select, .has-error textarea, .has-error button.multiselect, .has-error .select2-container--default .select2-selection--single, .has-error .css-yk16xz-control {
+    border: 1px solid #990000 !important;
+}
+
+/* --------------------------------- TOASTR------------------------------ */
+
+.Toastify__toast--success {
+    background: #08b02c !important;
+}
+
+.Toastify__toast {
+    padding: 5px 10px !important;
+}
+
+.Toastify__toast-body {
+    background-size: 20px 20px;
+    padding: 0px 0px 0px 30px;
+    background-repeat: no-repeat;
+}
+
+.Toastify__toast--error .Toastify__toast-body {
+    background-image: url('./../images/icon/error.svg');
+}
+
+.Toastify__toast--success .Toastify__toast-body {
+    background-image: url('./../images/icon/check.png');
+}
+
+.Toastify__toast--warning .Toastify__toast-body {
+    background-image: url('./../images/icon/warn.svg');
+}

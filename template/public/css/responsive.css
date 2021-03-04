@@ -1,0 +1,186 @@
+@media only screen and (min-width: 768px) and (max-width : 1024px) {
+    .Login .loginBox,
+    .Register .registerBox,
+    .ForgetPassword .forgetPasswordBox {
+        margin: 25% auto 0;
+    }
+    .mainDashboard .income__spend .incomeToday {
+        margin : 0px 0px 15px 0px;
+    }
+    .mainDashboard .income__spend .incomeThisMonth {
+        margin : 0px 0px 15px 0px;
+    }
+    .mainDashboard .income__spend .spendToday {
+        margin : 0px 0px 15px 0px;
+    }
+    .mainDashboard .income__spend .spendThisMonth {
+        margin : 0px 0px 15px 0px;
+    }
+    .mainDashboard .income__spend .formSearch {
+        padding: 15px 0px;
+        margin : 0px;
+    }
+    .mainDashboard .income__spend .formSearch i.fa-search {
+        top : 30px;
+    }
+    .mainDashboard .income__spend .formSearch i.fa-times-circle {
+        top : 30px;
+    }
+    .formSmall {
+        width: 50%;
+    }
+    .revenueManager .searchRevernue .functionUser {
+        line-height: 88px;
+    }
+    .revenueManager .searchRevernue .buttonSearchSubmit {
+        text-align: left;
+    }
+    .mainDashboard .income__spend .incomeToday .imgIncome,
+    .mainDashboard .income__spend .incomeThisMonth .imgIncome,
+    .mainDashboard .income__spend .spendToday .imgSpend,
+    .mainDashboard .income__spend .spendThisMonth .imgSpend {
+        line-height: 95px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .content-wrapper {
+        margin: 70px 15px 0px 15px;
+    }    
+    .topDashboard .menuDashboard .bm-burger-button {
+        left : 15px;
+    }
+    .topDashboard .menuDashboard .menuRight ul li:last-child {
+        padding: 0px;
+    }
+    .topDashboard .menuDashboard .menuRight ul li a img.imgAvatar {
+        margin : 0px;
+    }
+    .topDashboard .menuDashboard .formNotification {
+        right : 20px;
+        width: 340px;
+    }
+    .topDashboard .menuDashboard .formNotification .card .card-header:first-child:before {
+        border-width: 8px;
+        top : -15px;
+        right : 95px;
+    }
+    .topDashboard .menuDashboard .formNotification .card .card-body .card-title {
+        font-size: 12px;
+    }
+    .topDashboard .menuDashboard .formNotification .card .card-body .card-text {
+        font-size : 10px;
+    }
+    .topDashboard .menuDashboard .menuRight ul li {
+        padding: 0px 20px;
+    }
+    .topDashboard .menuDashboard .formNotification .card .card-header:first-child:before {
+        right : 60px;
+        top : -13px;
+    }
+    .topDashboard .menuDashboard .formUserSetting ul:before {
+        top : -16px;
+        right : 15px;
+    }
+    .Login .loginBox,
+    .Register .registerBox,
+    .ForgetPassword .forgetPasswordBox {
+        width: 350px;
+    }
+    .Login .loginBox .mainLogin .titleFormLogin,
+    .ForgetPassword .forgetPasswordBox .mainForgetPassword .titleFormForgetPassword {
+        font-size: 16px;
+    }
+    .Login .loginBox {
+        margin: 25% auto 0;
+    }
+    .Register .registerBox {
+        margin: 15% auto 0;
+    }
+    .ForgetPassword .forgetPasswordBox {
+        margin: 25% auto 0;
+    }
+    .Register .registerBox .mainRegister .inputFormRegister .form-group {
+        margin: 25px 15px 20px 15px;
+    }
+    .mainDashboard .income__spend .incomeToday,
+    .mainDashboard .income__spend .spendToday,
+    .mainDashboard .income__spend .incomeThisMonth,
+    .mainDashboard .income__spend .spendThisMonth {
+        margin : 0px 0px 15px 0px;
+    }
+    .formSmall {
+        width: 80%;
+    }
+    .revenueManager .searchRevernue .buttonSearchSubmit {
+        text-align: left;
+        line-height: 45px;
+    }
+    .revenueManager .searchRevernue .functionUser {
+        line-height: 45px;
+    }
+    .mainDashboard .income__spend .formSearch {
+        margin : 0px;
+    }
+    .mainDashboard .income__spend .incomeToday .imgIncome,
+    .mainDashboard .income__spend .incomeThisMonth .imgIncome,
+    .mainDashboard .income__spend .spendToday .imgSpend,
+    .mainDashboard .income__spend .spendThisMonth .imgSpend {
+        line-height: 95px;
+    }
+}
+@media only screen and (max-width: 324px) {
+    .topDashboard .menuDashboard .formNotification {
+        right : 10px;
+        width:  300px;
+    }
+    .topDashboard .menuDashboard .formNotification .card .card-header:first-child:before {
+        right : 103px;
+    }
+    .topDashboard .menuDashboard .formNotification .card .card-body {
+        padding: 15px 25% 15px 15px;
+    }
+    .topDashboard .menuDashboard .formNotification .card .card-header:first-child:before {
+        right : 64px;
+        top : -15px;
+    }
+    .topDashboard .menuDashboard .formUserSetting ul:before {
+        top : -17px;
+        right : 14px;
+    }
+    .Login .loginBox,
+    .Register .registerBox,
+    .ForgetPassword .forgetPasswordBox {
+        width: 300px;
+    }
+    .Login .loginBox {
+        margin: 20% auto 0;
+    }
+    .Register .registerBox {
+        margin: 3% auto 0;
+    }
+    .ForgetPassword .forgetPasswordBox {
+        margin: 25% auto 0;
+    }
+    .Login .loginBox .mainLogin .inputFormLogin .form-group,
+    .Register .registerBox .mainRegister .inputFormRegister .form-group,
+    .ForgetPassword .forgetPasswordBox .mainForgetPassword .inputFormForgetPassword .form-group {
+        margin: 25px 10px 20px 10px;
+    }
+    .revenueManager .searchRevernue .functionUser .addItemRevenue,
+    .revenueManager .searchRevernue .functionUser .delAllItem,
+    .walletManager .searchRevernue .functionUser .addItemWallet,
+    .walletManager .searchRevernue .functionUser .delAllItem {
+        font-size: 12px;
+        padding: 6.5px 5px;
+    }
+    .revenueManager .searchRevernue .buttonSearchSubmit .searchResult,
+    .revenueManager .searchRevernue .buttonSearchSubmit .refreshResult,
+    .walletManager .searchRevernue .buttonSearchSubmit .searchResult,
+    .walletManager .searchRevernue .buttonSearchSubmit .refreshResult {
+        font-size: 12px;
+        padding: 6.5px 10px;
+    }
+    .chartDashboard {
+        padding: 30px 0px 0px 0px;
+    }
+}
